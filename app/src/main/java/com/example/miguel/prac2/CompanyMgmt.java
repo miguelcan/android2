@@ -73,15 +73,6 @@ public class CompanyMgmt extends Activity {
     public void displayCmp(View v) {
         Intent intent = new Intent(this, DispCompanies.class);
 
-        /*ListItem listItem = new ListItem();
-        listItem.setImageUser(getResources().getDrawable(R.drawable.ic_launcher));
-        listItem.setHeader("Daniel");
-        listItem.setSubHeader("Rodriguez");
-
-        ListItem listItem2 = new ListItem();
-        listItem2.setImageUser(getResources().getDrawable(R.drawable.ic_launcher));
-        listItem2.setHeader("Laura");
-        listItem2.setSubHeader("Elisa");*/
 
         TextView msg = (TextView) findViewById(R.id.textView2);
         msg.setText("");
